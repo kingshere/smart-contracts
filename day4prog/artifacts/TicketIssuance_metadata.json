@@ -1,0 +1,157 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_maxQueueSize",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "ticketNo",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "customerName",
+						"type": "string"
+					}
+				],
+				"name": "TicketIssued",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getIssuedTicketsCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ticketNo",
+						"type": "uint256"
+					}
+				],
+				"name": "getTicket",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "customerName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "customerName",
+						"type": "string"
+					}
+				],
+				"name": "issueTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxQueueSize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tickets",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "ticketNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "customerName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"day4prog/d4p1.sol": "TicketIssuance"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"day4prog/d4p1.sol": {
+			"keccak256": "0xed260464d2398d03bf2bc9368ff411e9898a57003d33ec7abf45ec0d734dbc69",
+			"urls": [
+				"bzz-raw://450ea0c9e866b260e4724f250ed668e64f312c8ccc0543767026ff3ef7ada2fb",
+				"dweb:/ipfs/Qmd131S4VhSgBUyopnZp62m9dF2mv7YAbZCmr1Mtts14g8"
+			]
+		}
+	},
+	"version": 1
+}
