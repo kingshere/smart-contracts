@@ -95,7 +95,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week3/hw1.sol": "NumberOperations"
+			"week3/hw5.sol": "NumberOperations"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -109,7 +109,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"week3/hw1.sol": {
+		"week3/hw5.sol": {
 			"keccak256": "0xe27668c9aac251426372894b0175103ed1a2e6b515db53b239ee79d8e417592a",
 			"license": "MIT",
 			"urls": [
