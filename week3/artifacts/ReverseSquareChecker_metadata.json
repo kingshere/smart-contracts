@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "checkReverseSquareProperty",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "getCalculations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "reverseOfNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "squareOfNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "squareOfReverseNum",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "reverseOfSquare",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "reverseNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week3/hw2.sol": "ReverseSquareChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week3/hw2.sol": {
+			"keccak256": "0xa8ba69a711866c9d995b4ec4be12adbf4e8ed9b0448ea40234f24ec44e014273",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4155c01b5cc61d4a456ddbc4165053b3220be346619b64995132606e54fcd514",
+				"dweb:/ipfs/QmXEHBXmP279GLZJ7byzpQw8rkkEC3CH8AyJ63H5q9hifH"
+			]
+		}
+	},
+	"version": 1
+}
